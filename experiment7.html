@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Page Navigation Menu</title>
+    <style>
+        header{
+            display: block;
+            background-color: rgb(189, 189, 189);
+            padding: 15px;
+            text-align: center;
+            font-size: 25px;
+        }
+        .float-menu ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+
+        }
+        .float-menu li{
+            margin-right: 15px;
+            font-size: 18px;
+        }
+        .float-menu a{
+            text-decoration: none;
+            padding: 10px;
+            background:rgb(206, 230, 233);
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
+    <header><b>Website Navigation</b></header>
+    <nav class="float-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
     
 </body>
 </html>
