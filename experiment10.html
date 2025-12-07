@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000000;
+            color: white;
+            padding: 15px 20px;
+        }
+        .logo{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .logo img{
+            height: 50px;
+            display:block;
+            background-color: white;
+            padding: 8px;
+            border-radius: 30%;
+            object-fit: contain;
+        }
+        .navlinks{
+            display: flex;
+            list-style: none;
+            gap: 35px;
+            font-size: 18px;
+        }
+        .navlinks a{
+            text-decoration: none;
+            color: white;
+        }
+        .sections p{
+            font-size: 20px;
+        }
+        .actions a{
+            margin-left: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @media  (max-width: 768px){
+            .navlinks{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="imgs/Blank Mascot YE.png" alt=""></div>
+        <div class="logo">BLANK</div>
+        <ul class="navlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="actions">
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+    <section>
+        <h1>Welcome to BANK STUDIOS.</h1>
+        <p>Fill the <b>BLANK</b> with the <i><u><b>UNEXPECTED</b></u></i>.</p>
+    </section>
+
+</body>
+</html>
